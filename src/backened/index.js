@@ -1,7 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
-
+import route from './Route.js'
 
 const PORT=3333
 dotenv.config(); // Corrected the typo
@@ -12,11 +12,6 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-
-// Example: Basic route
-app.get('/', (req, res) => {
-  res.send('Hello from Express!');
-});
-
+app.use("/api", route); 
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

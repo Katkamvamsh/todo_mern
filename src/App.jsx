@@ -1,6 +1,7 @@
 
 import './App.css'
 import Todo from './frontend/components/Todo/Todo'
+import Lo from './frontend/components/Lo/index'
 
 function App() {
   
@@ -9,6 +10,7 @@ function App() {
     <>
       <div>
       <Todo/>
+     <Lo/>
       </div>
     </>
   )

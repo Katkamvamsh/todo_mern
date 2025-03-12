@@ -2,7 +2,7 @@ import React, { Fragment, useState } from 'react'
 import './Todo.css'
 
 const Todo = () => {
-const[input, setInput]=useState("")
+const[input, setInput]=useState()
 const [todo,setTodo]=useState([])
 const[complete,setComplete]=useState([])
     const onChangeInput=(event)=>{
