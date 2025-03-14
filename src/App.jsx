@@ -10,7 +10,7 @@ function App() {
     <>
       <div>
       <Todo/>
-     <Lo/>
+     {/* <Lo/> */}
       </div>
     </>
   )
