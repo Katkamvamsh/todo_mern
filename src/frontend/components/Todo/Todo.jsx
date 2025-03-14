@@ -37,7 +37,7 @@ console.log(complete)
             return <div key={index}> 
              <div className='todo-added'>
     <div className='a'>    <input value={value} onChange={()=>completed(value)} type="checkbox" />
-        <p className={complete.includes(value)?"done":""}>{value}</p> </div>
+        <p className={complete.includes(value)?"done":"not-done"}>{value}</p> </div>
         <button onClick={()=>deleteTodo(value)} className='delete-button'>Delete</button>
      </div>
      

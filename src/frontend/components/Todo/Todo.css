@@ -30,6 +30,7 @@
    align-items: center;
     border-radius: 8px;
     padding: 1px;
+    justify-content: space-between;
  }
  .input{
     width: 30vw;
@@ -59,4 +60,7 @@
 .done{
     text-decoration: line-through;
     color: red;
+}
+.not-done{
+    color: rgb(0, 255, 0);
 }
